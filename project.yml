@@ -1,0 +1,19 @@
+name: LilaApp
+options:
+  createIntermediateGroups: true
+settings:
+  base:
+    CODE_SIGN_STYLE: Automatic
+    DEVELOPMENT_TEAM: ""
+    PRODUCT_BUNDLE_IDENTIFIER: com.example.LilaApp
+    TARGETED_DEVICE_FAMILY: "1"
+targets:
+  LilaApp:
+    type: application
+    platform: iOS
+    deploymentTarget: "13.0"
+    sources: [Sources]
+    infoPlist: Info.plist
+    settings:
+      base:
+        SWIFT_VERSION: 5.0
