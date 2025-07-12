@@ -1,8 +1,25 @@
-This code will be written entirely using swift and will be tested and run in xcode.
-An AI assistant app with a main menu with several options: Chat with Lila (AI chat bot) which is a typical chat interface with an image of Lila's face in the top left hand corner. She blinks and is emotive. The AI will be required to give an emotion with the first 10 characters which is ommited from the response and triggers an animation that matches the emotion.
-Another option that can be selected from the main page is a button takes you to a task list. The task list has a toggle that allows you to select between a checklist view and a kanban view.
-You are given tokens and currency for completed tasks.
-There is another button that takes you to a page that allows for you to easily create a calendar event/invite.
-There is a seperate page that takes you to your personal stats (which reads like a character sheet for an RPG)
-Another button launches the "mind palace" which is a unique page that enables you to attach memos and notes to bounching sprites and items in a virtual home.
-Tasks can be linked to items and objects in the mind palace.
+# Lila
+
+This repository contains the code for **Lila**, an AI assistant app written using **SwiftUI**. The app provides a main menu that links to several features including a chat interface, task list, calendar event creation, personal stats, and a mind palace.
+
+## Project Structure
+
+- `LilaApp/` – SwiftUI source files for the iOS application.
+  - `LilaApp.swift` – Application entry point.
+  - `Views/` – Contains the SwiftUI views.
+    - `MainMenuView.swift` – Main menu with navigation links to each feature.
+    - Other files under `Views/` are placeholder views for their respective features.
+
+To open the project, create a new Xcode project or workspace and include the files under `LilaApp`. You can then build and run the app on an iOS simulator or device.
+
+## Main Menu
+
+The main menu presents the following options:
+
+- **Chat with Lila** – Opens a chat interface.
+- **Task List** – Displays tasks.
+- **Calendar / Event Creation** – Lets you create calendar events.
+- **Personal Stats** – Shows stats similar to an RPG character sheet.
+- **Mind Palace** – A space to attach notes to virtual objects.
+
+Each option currently navigates to a placeholder view which you can extend with additional functionality.
